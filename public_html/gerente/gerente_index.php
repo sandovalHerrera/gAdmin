@@ -43,13 +43,45 @@
             </div>
         </div>
 
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="stat-widget-one">
+                            <div class="stat-icon dib"><i class="ti-layout-grid2 text-warning border-warning"></i></div>
+                            <div class="stat-content dib">
+                                <div class="stat-text">Productos</div>
+                                <div class="stat-digit">
+                                    <?php echo getNumOf('productos','idproducto'); ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="stat-widget-one">
+                            <div class="stat-icon dib"><i class="ti-layout-grid2 text-success border-success"></i></div>
+                            <div class="stat-content dib">
+                                <div class="stat-text">Materiales</div>
+                                <div class="stat-digit">
+                                    <?php echo getNumOf('materiales','idmaterial'); ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         <!--  Contenido  -->
     </div><!-- /#right-panel -->
 
     <!-- Right Panel -->
 
-    <script src="../assets/js/vendor/jquery-3.3.1.min.js"></script>
+    <script type='text/javascript' src="../assets/js/vendor/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="../assets/js/plugins.js"></script>
     <script src="../assets/js/main.js"></script>
